@@ -1,0 +1,86 @@
+.ink_import, .ink_export{
+padding:10px 30px;
+border:1px solid black;
+background:transparent;
+color:black;
+}
+.ink_export {
+    margin: 0 auto !important;
+    margin-top: 12px !important;
+}
+.interface-pinned-items .is-pressed{
+    background: transparent !important;
+}
+
+
+#toast {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    right: 10%;
+    bottom: 30px;
+    font-size: 17px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+element.style {
+    width: 400px;
+    height: 200px;
+}
+.dzu-dropzone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: white;
+    min-height: 120px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    transition: all .15s linear;
+    border: 2px dashed #E55C96;
+    
+}
+.dzu-inputLabel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    width: 100%;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #E55C96;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    line-height: 1.3;
+    flex-shrink: 0;
+    max-width: 100% !important;
+    text-align: center !important;
+}
+.dzu-input {
+    display: none;
+}
+button[aria-label="INK"] {
+    padding: 0 !important;
+}
+.components-button.is-pressed, .components-button.is-pressed:hover:not(:disabled){
+    color: #3b3b3b;
+}
+img.components-menu-items__item-icon{
+max-width: 36px;
+}

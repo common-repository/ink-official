@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "dependencies": {
+    "@wordpress/plugins": "^4.0.0",
+    "react-dropzone": "^11.3.4",
+    "react-dropzone-uploader": "^2.11.0"
+  },
+  "name": "post-sidebar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@wordpress/scripts": "17.1.0",
+    "webpack": "^4.46.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

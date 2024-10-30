@@ -1,0 +1,79 @@
+/**
+ * #.# Editor Styles
+ *
+ * CSS for just Backend enqueued after style.scss
+ * which makes it higher in priority.
+ */
+
+/*.wp-caption, figure {
+	max-width: 100%;
+}
+
+figure br, .wp-caption br {
+	display: none;
+}
+*/
+.ink_container {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 56.25%;
+}
+.ink_video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+span.mce-preview-object.mce-object-iframe {
+	display: table-row;
+}
+.google-article {
+	padding: 10px 0;
+	line-height: 20px;
+}
+.google-article ._title {
+	color: #1a0dab;
+	display: block;
+}
+.google-article ._title h3 {
+	font-size: 19px;
+	margin: 0;
+	font-weight: 500;
+}
+.google-article cite {
+	color: #006621;
+	font-style: normal;
+	margin: 5px 0 2px;
+	display: block;
+}
+.google-article ._des {
+	color: #545454;
+}
+.google-article ._date {
+	color: #777;
+}
+.google-article em {
+	color: #6a6a6a;
+	font-weight: 600;
+	font-style: normal;
+}
+.ink-meta-data .FieldBox {
+	margin-top: 15px;
+}
+.ink-meta-data .FieldBox label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+.ink-meta-data .FieldBox .form-control {
+	display: block;
+	width: 100%;
+}
+.ink-meta-data .FieldBox textarea {
+	min-height: 80px;
+}
+#ink_customfields{
+	/*display: none;*/
+}
